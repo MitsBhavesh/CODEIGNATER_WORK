@@ -1,0 +1,77 @@
+/*::selection { background-color: #950a5dc4; color: #fff; }
+::-moz-selection { background-color: #950a5dc4; color: #fff; }*/
+body{
+	background-color: #950a5dc4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+.{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+form{
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+}
+h2{
+	text-align: center;
+	margin-bottom: 40px;
+}
+input{
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label{
+	color: #950a5dc4;
+	font-size: 18px;
+	padding: 10px;
+}
+button{
+	float: right;
+	background: #5555555e;
+	padding: 10px 15px;
+	color: black;
+	border-radius: 5px;
+	margin: center;
+	margin-right:5px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error{
+	background: white;
+	color: red ;
+	padding: 10px;
+	width: 95%;
+	border-radius: 5px;
+	margin: 20px auto;
+}
+h1{
+	text-align: center;
+	color: #fff;;
+}
+a{
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin: center;
+	margin-right:5px;
+	border: none;
+}
+a:hover{
+	opacity: .7;
+
+}
